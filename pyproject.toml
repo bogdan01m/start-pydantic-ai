@@ -1,0 +1,14 @@
+[project]
+name = "agents-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "logfire>=3.13.1",
+    "pydantic>=2.11.3",
+    "pydantic-ai>=0.0.55",
+    "pydantic-ai-slim[duckduckgo,mcp]>=0.0.55",
+    "python-dotenv>=1.1.0",
+]
